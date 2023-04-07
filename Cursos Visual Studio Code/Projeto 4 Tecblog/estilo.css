@@ -46,21 +46,37 @@ span {
 
 main {
     width: 920px;
-    margin: auto;
+    margin: 0px auto;
 }
 
 .principal {
-    background-color: white;
     width: 660px;
-    padding: 10px;
+    /* padding: 10px; */
     float: left;
 }
 
-.lateral {
+aside {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+#postagem {
     background-color: white;
     width: 220px;
     padding: 5px;
     float: right;
+    margin-bottom: 10px;
+}
+
+#categoria {
+    background-color: white;
+    width: 220px;
+    padding: 5px;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 h3 {
