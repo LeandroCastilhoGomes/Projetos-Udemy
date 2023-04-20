@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+ul {
+   width: 200px;
+   list-style-type: none;
+   padding: 0px;
+}
+
+li a {
+    background: #f7b600 url(imagens/menu.png) no-repeat left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    text-indent: 35px;
+    line-height: 40px;
+}
+
+a:hover {
+    background-position: right;
+    background-color: #f99200;
+    color: white;
+}
+
+.selecionado a {
+    background-position: right;
+    background-color: #f99200;
+    color: white; 
+}

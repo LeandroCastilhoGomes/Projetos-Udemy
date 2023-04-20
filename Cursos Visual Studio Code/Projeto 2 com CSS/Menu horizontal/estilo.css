@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background: #159cb0 url(imagens/fundo-horizontal.png);
+    width: 720px;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    background: url(imagens/divisor.png) repeat-y;
+    padding: 0 2em;
+    line-height: 2em;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    color: #085662;
+    background: #44cade;
+}
